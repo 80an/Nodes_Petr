@@ -22,7 +22,7 @@ install_node() {
   cd $HOME/.pipe
 
   # download the compiled pop binary
-  curl -L -o pop "https://dl.pipecdn.app/v0.2.5/pop"
+  curl -L -o pop "https://dl.pipecdn.app/v0.2.6/pop"
   
   # assign executable permission to pop binary
   chmod +x pop
